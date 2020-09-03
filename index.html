@@ -6,20 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="X-UA-Compatible" content="IE=7">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>WeatherOrNot!</title>
 </head>
 <body>
-<nav>
+<nav class="navbar navbar-dark bg-primary">
     <h1>Weather Dashboard</h1>
 </nav>
 <div class="search-container">
-   <form>
+
+   <form class="form-inline">
         <h4>Search for a City:</h4>
-        <input type="search" name="" id="searchArea">
-        <button type= "button" id="searchBtn"> Button</button>
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" id="searchArea"aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type= "button" id="searchBtn"> Search</button>
         <!-- <input type="button" value="" id="searchBtn"> -->
-        <ul id ="pastCities">
+        <ul class="list-group" id ="pastCities">
 
         </ul>
    </form>
