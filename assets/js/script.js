@@ -43,12 +43,22 @@ $(document).ready(function () {
             <p class="humidity">Humidity ${response.main.humidity}</p>
             <p class="wind-speed">Wind Speed ${response.wind.speed}</p>
             <p class="index ${uvIndex(res.current.uvi)}">UV index ${res.current.uvi}</p>`)
+            $(".forecast-container").empty()
+            $(".forecast-container").append(`
+            <h4>5-Day Forecast:</h4>
+            <div class="day1 forecast">Day 1</div>
+            <div class="day2 forecast">Day 2</div>
+            <div class="day3 forecast">Day 3</div>
+            <div class="day4 forecast">Day 4</div>
+            <div class="day5 forecast">Day 5</div>
+            `)
             res.daily.map((forecast, index) =>{
                 if (index > 0 && index < 6){
                     console.log(forecast)
+                    var date = new Date(forecast.dt).toString()
                     $(`.day${index}`).empty()
                     $(`.day${index}`).append(`
-                    <h3>${forecast.dt.getMonth()}/${forecast.dt.getDate()}/${forecast.dt.getFullYear()}</h3>
+                    <h3>${now.getMonth()}/${now.getDate()+index}/${now.getFullYear()}</h3>
                     <img src="http://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png" alt="weather icon" width="100" height="100"/>   
                     <p class="temperature">Minimum Temperature: ${forecast.temp.min}</p>
                     <p class="temperature">Maximum Temperature: ${forecast.temp.max}</p>
