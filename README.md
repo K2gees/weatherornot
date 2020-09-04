@@ -14,9 +14,10 @@ JQuery
 
 
 ## Screenshots
-![Pic 1 current city with forecast]
-![Pic 2 search history stored]
-![Pic 3 Past city revisited]
+![Search history stored](./images/saved-search.png)
+![current city with forecast](./images/current-city-with-forecast.png)
+![5 day forecast](./images/chicago-five-day-forecast(wind).png)
+![Uv Index change](./images/uv-index-color-change.png)
 
 
 
