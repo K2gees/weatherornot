@@ -1,9 +1,28 @@
+body{
+    margin: 0 auto;
+    padding-left: 10px;
+}
+
 h1 {
     /* justify-content: center; */
     align-items: center;
     text-align: center;
 }
+.low{
+    color: green;
 
+}
+.moderate{
+    color: yellow;
+
+}
+.high{
+    color: orange;
+
+}
+.veryHigh{
+    color: red;
+}
 
 /* .Austin {
     background-color: aqua;
