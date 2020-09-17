@@ -14,7 +14,7 @@ JQuery
 
 
 ## Screenshots
-![Search history stored](./images/saved-search.png)
+![Search history stored](/assets/images/saved-search.png)
 ![current city with forecast](./images/current-city-with-forecast.png)
 ![5 day forecast](./images/chicago-five-day-forecast(wind).png)
 ![Uv Index change](./images/uv-index-color-change.png)
