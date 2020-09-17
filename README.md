@@ -15,9 +15,9 @@ JQuery
 
 ## Screenshots
 ![Search history stored](/assets/images/saved-search.png)
-![current city with forecast](./images/current-city-with-forecast.png)
-![5 day forecast](./images/chicago-five-day-forecast(wind).png)
-![Uv Index change](./images/uv-index-color-change.png)
+![current city with forecast](/assets/images/current-city-with-forecast.png)
+![5 day forecast](/assets/images/chicago-five-day-forecast(wind).png)
+![Uv Index change](/assets/images/uv-index-color-change.png)
 
 
 
